@@ -45,7 +45,7 @@ function onClickToImage(e) {
   }
 }
 
-// Відкриття модального  вікна
+// Відкриття та закриття модального  вікна
 function openAndCloseModal(e) {
   const instance = basicLightbox.create(
     `<img src="${e.target.dataset.source}" width="800" height="600">`
@@ -58,5 +58,3 @@ function openAndCloseModal(e) {
     }
   });
 }
-
-// Закриття модального вікна
